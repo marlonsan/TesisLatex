@@ -1,0 +1,64 @@
+\documentclass[a4paper, 12pt]{report}
+
+\usepackage[left = 3cm, top = 2.5cm, bottom = 1.5cm, right = 2cm]{geometry}
+\usepackage{graphicx}
+\usepackage[spanish,es-tabla]{babel} % Idioma español con tablas
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage[utf8]{inputenc}         % Para escribir en castellano
+\usepackage[T1]{fontenc}
+\usepackage{color}
+\usepackage{alltt}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{anyfontsize}
+\setcounter{secnumdepth}{3} %para que ponga 1.1.1.1 en subsubsecciones
+\setcounter{tocdepth}{3}    % para que ponga subsubsecciones en el indice
+\usepackage{setspace}       % Usado para %\onehalfspace  \doublespacing  \singlespace
+\usepackage{booktabs}       % Para formar tablas
+%\usepackage{longtable}     % Usado para diseñar grandes tablas.
+
+%\usepackage{algorithmic}
+%\usepackage{algorithm}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Tables-related packages %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{array,colortbl}
+
+\usepackage[round]{natbib} 
+\bibliographystyle{apalike}
+ 
+\newcommand{\yy}{{\'{\i} }}
+\newcommand{\y}{\'{\i}}
+\textheight 21cm
+
+\begin{document}
+
+\baselineskip 1cm
+\pagestyle{plain}
+\input{cap1.tex}    % caratula del trabajo
+\listoffigures      % indice de figuras
+\addcontentsline{toc}{chapter}{Índice de Figuras}
+\listoftables       % indice de tablas
+\addcontentsline{toc}{chapter}{Índice de Tablas}
+\tableofcontents    % indice de materias
+\input{cap2.tex}    % capitulo de introduccion
+\input{cap3.tex}    % capitulo de marco teorico
+\input{cap4.tex}    % capitulo de cuerpo del trabajo
+\input{cap5.tex}    % capitulo de Resultados
+\input{cap6.tex}    % capitulo de consideraciones finales
+ \bibliography{Bibliografia} % Bibliografia formato APA
+\input{cap7.tex}    % Apendice
+\end{document}
+
+
+
+
+
+

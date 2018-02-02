@@ -1,0 +1,129 @@
+\chapter{Introducción}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\renewcommand{\baselinestretch}{2} %doble espacio paratodo el texto
+
+{\bf Ejemplo:}\par
+
+A medida que las ciudades crecían, el propio sistema urbano como un todo iba quedando cada vez más complejo e insuficiente para atender la fuerte demanda de la población por servicios urbanos. Las instituciones responsables por la oferta de tales servicios urbanos no han podido acompañar el ritmo de crecimiento de las demandas, ya que necesitan inversiones para ampliar los servicios de proyectos innovadores que se adapten a la nueva realidad de la sociedad moderna y de modelos de gestión más eficientes y eficaces que dinamicen la toma de decisiones, así como una participación más proactiva de la comunidad y de todos los actores involucrados de forma directa e indirecta en esos servicios.   
+\vskip 0.3cm
+El transporte de carga tiene cierta ventaja sobre el transporte de personas, pues es posible intervenir e influir en los flujos de los viajes a través  de una buena administración de los horarios de los sistemas logísticos de entrega, y colecta de las empresas y por medio de la implementación de proyectos de logística urbana y definición de políticas de transporte de carga por parte de los gobiernos locales, en sociedad con las empresas transportadoras y la comunidad. Diversos proyectos se han aplicado con bastante éxito en varias ciudades del primer mundo \citep{Santos}, trayendo ganancias a todos los actores y una reducción significativa de los impactos negativos en los principales centros urbanos.    
+
+\section{Motivación}
+
+{\bf Ejemplo:}\par
+
+De esta forma, los sistemas integrados para el manejo, tratamiento y disposición final de los RSU que ya existen en diversas ciudades y capitales de los países desarrollados, se hacen referencias para la investigación y justifican posibles adaptaciones para la realidad brasileña con el objetivo de que las ciudades sean ambientes más sustentables y competitivos.
+\vskip 0.3cm
+ Por lo tanto, se puede concluir que realmente existe una necesidad para planificar y modelar una red logística reversa que atienda a las necesidades de una región urbana y que contribuya con la adecuada disposición de los residuos urbanos. A partir del modelamiento es posible estructurar el sistema organizacional, gerencial, operacional y de información de toda la red  de logística reversa, y todas las otras acciones que fueron descritas en los párrafos anteriores.
+
+
+\section{Formulación del problema}
+
+{\bf Ejemplo:}\par
+
+  En este trabajo, se propone discutir el modelo de red  de logística reversa basado en el problema del ruteo de vehículos para responder a la siguiente pregunta:
+ \begin{center} 
+     ?`Cómo viabilizar una red logística reversa en regiones urbanas minimizando los costos logísticos de ruteo y transporte de los RSU hasta su disposición final?
+ \end{center}
+
+\section{Importancia de la investigación} 
+
+{\bf Ejemplo:}\par
+
+La colecta selectiva se define en la Ley 12.305/2010, como la colecta de residuos sólidos previamente separados de acuerdo con su constitución y composición. Esta colecta deber ser implementada por todos los municipios brasileños. 
+\vskip 0.3cm
+El escenario actual revela que la colecta selectiva de materiales reciclables es adoptada en aproximadamente $18\%$ de los municipios brasileños y estimativas indican que los residuos recuperados por los programas de colecta selectiva formales aún es muy pequeña. El reciclaje en el país se mantiene por el reciclaje pre-consumo y por la colecta post-consumo informal , conforme se puede observar en la tabla 1.1.
+
+\begin{center}
+\begin{table}[h!]
+\centering
+\caption{Estimativa en los programas de colecta selectiva formal (2008)}
+\begin{tabular}{llr} \toprule
+Residuos & Residuos colectados(t/día) & Residuos reciclados(t/año) \\ \midrule
+Metales & 5 293 & 9 817 \\
+Papeles & 23 997 & 3 827 \\
+Plástico & 24 847 & 962 \\
+Vidrio & 4 388 & 489 \\ \bottomrule
+\end{tabular}
+\vskip 0.2cm
+\begin{center}
+{\small{Fuente: \cite{MMA}.}}
+\end{center}
+\end{table}
+\end{center}
+\vskip 0.5cm
+
+\begin{table}[h!]
+\centering
+\caption{Estimativa en los programas de colecta selectiva formal (2008)}
+\begin{tabular}{|c|c|c|c|}  \hline 
+Residuos & Residuos colectados(t/día) & Residuos reciclados(t/año) \\ \hline 
+Metales & 5 293 & 9 817 \\
+Papeles & 23 997 & 3 827 \\ 
+Plástico & 24 847 & 962 \\
+Vidrio & 4 388 & 489  \\\hline
+\end{tabular}
+\begin{center}
+{\small{Fuente: \cite{MMA}.}}
+\end{center}
+\end{table}
+
+\section{Objetivos}
+\subsection{Generales}
+\subsection{Específicos}
+
+{\bf Ejemplo de objetivos:}\\
+{\bf Objetivo General:}
+\begin{enumerate}
+\item[a)] La investigación tiene como objetivo principal modelar y planificar una red logística reversa para una región urbana, dimensionando el flujo de RSU que será transportado a lo largo de la red y determinar el número y capacidad de las estaciones de colecta y de la unidades productivas y especiales necesarias para la atención de la región, en cuanto a la colecta, transporte y disposición final de los RSU.
+\vskip 0.3cm
+\item[b)]Con la optimización del modelo de colecta de RSU, es posible reorganizar el sistema logístico reverso de una ciudad de forma que se consiga un mejor dimensionamiento de la red, con la consecuente disminución del número que circulan en la ciudad.
+\end{enumerate}
+\vskip 0.2cm
+{\bf Objetivos específicos:}
+\begin{enumerate}
+\item[a)] Aplicar una metodología de programación lineal entera, considerada computacionalmente como un problema que pertenece a la clase de complejidad NP \citep{Korte} para solucionar el problema.
+\item[b)] Implementar con CPLEX, rodando en el sistema operativo Linux, los modelos propuestos, validarlos y testarlos en un caso práctico.
+\end{enumerate}
+
+\section{Contribución de la investigación}
+
+
+\section{Metodología de la investigación}
+
+{\bf Ejemplo:}\par
+\vskip 0.1cm
+Para llegar a los objetivos propuestos, el desarrollo de la investigación comprendió las siguientes etapas de trabajo a saber:
+\begin{enumerate}
+\item[a)] Análisis del problema de gestión de residuos sólidos urbanos (RSU) en el Brasil, para comprender la situación actual y levantar los principales cuellos de botella. Además, definir las principales variables de decisión para el modelamiento;
+\item[b)]	Levantamiento de los principales casos de éxito en la gestión de RSU en las ciudades brasileras y de otros países;  
+\item[c)]	Formulación del problema principal de la investigación, justificando su importancia;
+\item[d)]	Levantamiento bibliográfico de los diferentes temas necesarios para la elaboración de la investigación, tales como Leyes de RSU, sustentabilidad, ruteo, logística urbana, logística reversa y gestión de residuos, entre otros;
+\item[e)]	Estudio y análisis de los modelos de ruteo, logística urbana y logística reversa que contribuyan con el estado de arte del problema formulado;
+\item[f)]	Estudio y análisis de los métodos de solución para resolver los modelos evaluados en la revisión bibliográfica, así como los modelos que serán propuestos en este estudio;
+\item[g)]	Investigación y estudio de software libre que permita el teste de los modelos estudiados y la implementación de los modelos desarrollados en la investigación;
+\item[h)]	Testes y validación de los modelos estudiados con la herramienta computacional escogida;
+\item[i)]	Planificación del sistema de logística reversa para la sustentabilidad en el contexto de la logística urbana, por medio del desarrollo del modelamiento matemático del Sistema de Colecta Selectiva (ruteo) y de Transporte de los RSU hacia los centros especializado para que sean reciclados, reutilizados o rechazados;
+\item[j)]	Elección de un área urbana para que sea utilizada como estudio de caso,  tanto para los testes de los modelos estudiados como de los modelos desarrollados;
+\item[k)]	Levantamiento de los datos necesarios para validar y testar los modelos junto a los organismos responsables y organizaciones que participan directa e indirectamente en este campo de trabajo;
+\item[l)]	Levantamiento de premisas y simulación de datos para ejecutar los programas, es decir, muchas veces las bases de datos reales que se encuentran son incompletas y por un determinado dato no se puede ejecutar el programa, en este caso, esas informaciones son llenadas por medio de simulaciones de datos considerando la experiencia del analista de sistemas;
+\item[m)]	Testes y validación de los modelos desarrollados en la ciudad escogida por medio de la generación de escenarios alternativos.    
+\end{enumerate}
+
+
+\section{Estructura de la tesis}
+
+{\bf Ejemplo:}\par
+\vskip 0.1cm
+El presente trabajo está dividido en seis capítulos. El primer capítulo presenta los aspectos generales del tema tratado: la formulación del problema, importancia de la investigación, los objetivos, la contribución, además de la metodología de la investigación y la estructura de la tesis.
+
+En el capítulo dos se presenta el referencial teórico, soporte del tema, contemplando los conceptos de sustentabilidad urbana, logística directa y reversa, modelamiento y ruteo. Los modelos reportados por literatura especializada fueron programados con CPLEX.
+
+El tercer capítulo trata del tema central de la tesis, diseñandose los modelos respectivos propuestos...   
+
+ En el cuarto capítulo se presentan los resultados obtenidos en la investigación. En el capítulo cinco se presentan las consideraciones finales obtenidas en esta tesis. Inicialmente se presentan las conclusiones, seguida de las recomendaciones para futuras investigaciones relacionadas al tema en cuestión.
+
+Finalmente las referencias bibliográficas usadas para la investigación en esta tesis y los anexos donde se presentan los programas elaborados y en apéndice un pequeño glosario de ciertos términos usados en esta investigación.
+
+

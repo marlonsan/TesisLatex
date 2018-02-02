@@ -1,0 +1,120 @@
+\begin{thebibliography}{}
+
+\bibitem[Alberto and Mundaca~Arriola, 2016]{camposaquino}
+Alberto, C. A.~D. and Mundaca~Arriola, L. A.~N. (2016).
+\newblock Propuesta de m{\'e}todo de reconocimiento de im{\'a}genes para la
+  identificaci{\'o}n del melanoma humano.
+\newblock {\em Repositorio Nacional de Trabajos de Investigaci{\'o}n
+  ({RENATI})}.
+
+\bibitem[Antonio J.~Serrano, 2009]{serrano}
+Antonio J.~Serrano, Emilio~soria, j. D.~M. (2009).
+\newblock {\em Redes neuronales Artificiales}.
+\newblock Open Course Ware (España).
+
+\bibitem[Arriaga~Garc{\'i}a and Aracena~Pizarro, 2006]{arriagaGarcia}
+Arriaga~Garc{\'i}a, C. and Aracena~Pizarro, D. (2006).
+\newblock Detecci{\'o}n y reconocimiento de se{\~n}ales de tr{\'a}nsito
+  utilizando matching de chamfer.
+\newblock {\em Ingeniare, Revista Chilena de Ingenier{\'i}a}.
+
+\bibitem[Ayunque~Arenas, 2014]{ayunque}
+Ayunque~Arenas, K.~J. (2014).
+\newblock Dise{\~n}o de un sistema de clasificaci{\'o}n de se{\~n}ales de
+  tr{\'a}nsito vehicular utilizando redes neuronales convolucionales.
+\newblock {\em Repositorio Nacional de Trabajos de Investigaci{\'o}n
+  ({RENATI})}.
+
+\bibitem[Caiza~Andrango, 2016]{caiza2016diseno}
+Caiza~Andrango, L.~E. (2016).
+\newblock Dise{\~n}o de una aplicaci{\'o}n interactiva que permita asistir al
+  conductor en el reconocimiento de se{\~n}ales de tr{\'a}nsito mediante
+  procesamiento de im{\'a}genes utilizando software libre y tecnolog{\'\i}a
+  beaglebone.
+\newblock {B.S.} thesis, Universidad de las Fuerzas Armadas ESPE Extensi{\'o}n
+  Latacunga. Carrera de Ingenier{\'\i}a en Electr{\'o}nica e
+  Instrumentaci{\'o}n.
+
+\bibitem[Carlos~V., 1995]{regueiro}
+Carlos~V., R. (1995).
+\newblock Modelo b{\'a}sicos de redes neuronales.
+\newblock {\em Universidad de Santiago de Compostela}.
+
+\bibitem[Carranza~Hern{\'a}ndez, 2014]{carranzahernandez}
+Carranza~Hern{\'a}ndez, S.~N. (2014).
+\newblock Implementaci{\'o}n de un sistema de informaci{\'o}n para el
+  reconocimiento de caracteres basado en la red neuronal perceptr{\'o}n.
+\newblock {\em Repositorio Nacional de Trabajos de Investigaci{\'o}n
+  ({RENATI})}.
+
+\bibitem[Ch{\'a}vez~C{\'o}rdova, 2011]{ChavezAlex}
+Ch{\'a}vez~C{\'o}rdova, A.~S. (2011).
+\newblock Algoritmo que permite el ingreso de veh{\'i}culos a una v{\'i}a de
+  alto tr{\'a}fico y doble sentido, basado en procesamiento de im{\'a}genes.
+\newblock {\em Repositorio Nacional de Trabajos de Investigaci{\'o}n
+  ({RENATI})}.
+
+\bibitem[DEXTRE, 2012]{dextre2012senalizacion}
+DEXTRE, J. (2012).
+\newblock La se{\~n}alizaci{\'o}n vial: de los conceptos a la pr{\'a}ctica.
+\newblock url:{http://sindominio.net/ash}.
+
+\bibitem[Diaz~Rojas, 2006]{diazrojas}
+Diaz~Rojas, K.~E. (2006).
+\newblock Localizaci{\'o}n y reconocimiento autom{\'a}tico del n{\'u}mero de
+  placa de un autom{\'o}vil.
+\newblock {\em Repositorio Nacional de Trabajos de Investigaci{\'o}n
+  ({RENATI})}.
+
+\bibitem[Elizondo and Maestre, 2002]{elizondo2002fundamentos}
+Elizondo, J.~E. and Maestre, L.~P. (2002).
+\newblock Fundamentos de procesamiento de im{\'a}genes.
+\newblock {\em Documentaci{\'o}n Universidad Aut{\'o}noma de Baja California,
+  Unidad Tijuana}.
+
+\bibitem[Emiliano, 2000]{emiliano}
+Emiliano, A.~R. (2000).
+\newblock Introducci{\'o}n al reconocimiento de patrones mediante redes
+  neuronales.
+
+\bibitem[J.~R.~hilera Gonzales, 1995]{hilera_gonzales}
+J.~R.~hilera Gonzales, V. J. M.~H. (1995).
+\newblock {\em Redes neuronales artificiales: fundamentos, modelos y
+  aplicaciones.}
+\newblock RA-MA (España).
+
+\bibitem[Mundaca~Vidarte, 2016]{mundaca2016deteccion}
+Mundaca~Vidarte, G.~A. (2016).
+\newblock Detecci{\'o}n de caracteres de placas de autom{\'o}viles mediante
+  t{\'e}cnicas de visi{\'o}n artificial.
+\newblock {\em Repositorio Nacional de Trabajos de Investigaci{\'o}n
+  ({RENATI})}.
+
+\bibitem[Palomino and Concha, 2009]{palomino2009tecnicas}
+Palomino, N. L.~S. and Concha, U. N.~R. (2009).
+\newblock T{\'e}cnicas de segmentaci{\'o}n en procesamiento digital de
+  im{\'a}genes.
+\newblock {\em Revista de investigaci{\'o}n de Sistemas e Inform{\'a}tica},
+  6(2):9--16.
+
+\bibitem[Pedro Isasi~Viñuela, 2004]{Isasi}
+Pedro Isasi~Viñuela, I. M. G.~L. (2004).
+\newblock {\em Redes neuronales artificiales: Un enfoque Pr{\'a}ctico.}
+\newblock Pearson Educacion S. A. (España).
+
+\bibitem[Salazar~M{\'a}rquez, 2015]{salazar2015desarrollo}
+Salazar~M{\'a}rquez, M.~B. (2015).
+\newblock Desarrollo de una algoritmo para la localizaci{\'o}n autom{\'a}tica
+  de placas vehiculares peruanas usando t{\'e}cnicas de procesamiento de
+  im{\'a}genes.
+\newblock {\em Repositorio Nacional de Trabajos de Investigaci{\'o}n
+  ({RENATI})}.
+
+\bibitem[Sirlop{\'u}~Chancafe and Mazabel~Quijandr{\'\i}a,
+  2016]{sirlopu2016deteccion}
+Sirlop{\'u}~Chancafe, R.~J. and Mazabel~Quijandr{\'\i}a, G.~A. (2016).
+\newblock Detecci{\'o}n autom{\'a}tica de caries utilizando reconocimiento de
+  patrones en placas radiogr{\'a}ficas.
+\newblock {\em Repositorio Institucional}.
+
+\end{thebibliography}
